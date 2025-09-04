@@ -19832,7 +19832,7 @@ function QA() {
       {
         name: "Ana Lúcia Poubel",
         profession: "Assistente social",
-        text: "Fazer Pilates vai além de exercício corporal. Constantemente exercitamos nossas mentes, nossos corações. É uma terapia diária. Fazemos amizade, convivemos com as diferenças e dificuldades de pessoas diferentes e especiais ao mesmo tempo. Adoro Pilates, especialmente o ProLife!",
+        text: "Fazer Pilates vai além de exercício corporal. Constantemente exercitamos nossas mentes, nossos corações. É uma terapia diária. Fazemos amizade, convivemos com as diferenças e dificuldades de pessoas diferentes e especiais ao mesmo tempo. Adoro Pilates, especialmente o Teste!",
       },
       {
         name: "Fábio Barros",
@@ -19903,7 +19903,7 @@ function QA() {
                 initial: { opacity: 0, x: -20 },
                 animate: { opacity: 1, x: 0 },
                 className: "text-2xl font-bold text-purple-700",
-                children: "ProLife",
+                children: "Teste",
               }),
               w.jsxs("nav", {
                 className: "hidden md:flex space-x-8",
@@ -20289,7 +20289,7 @@ function QA() {
               viewport: { once: !0 },
               transition: { delay: 0.2 },
               className: "text-lg text-gray-600 mb-8",
-              children: "curta e compartilhe prolife",
+              children: "curta e compartilhe Teste",
             }),
             w.jsxs(Nt.div, {
               initial: { opacity: 0, y: 20 },
@@ -20390,7 +20390,7 @@ function QA() {
                         }),
                         w.jsx("div", {
                           className: "text-4xl font-bold text-green-600 mb-4",
-                          children: "27 99911 2027",
+                          children: "99 99999 9999",
                         }),
                         w.jsxs(xl, {
                           onClick: m,
@@ -20461,7 +20461,7 @@ function QA() {
                   children: [
                     w.jsx("h3", {
                       className: "text-2xl font-bold mb-4",
-                      children: "ProLife",
+                      children: "Teste",
                     }),
                     w.jsx("p", {
                       className: "text-purple-200",

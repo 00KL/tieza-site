@@ -29,7 +29,7 @@ function App() {
     {
       name: "Ana Lúcia Poubel",
       profession: "Assistente social",
-      text: "Fazer Pilates vai além de exercício corporal. Constantemente exercitamos nossas mentes, nossos corações. É uma terapia diária. Fazemos amizade, convivemos com as diferenças e dificuldades de pessoas diferentes e especiais ao mesmo tempo. Adoro Pilates, especialmente o ProLife!",
+      text: "Fazer Pilates vai além de exercício corporal. Constantemente exercitamos nossas mentes, nossos corações. É uma terapia diária. Fazemos amizade, convivemos com as diferenças e dificuldades de pessoas diferentes e especiais ao mesmo tempo. Adoro Pilates, especialmente o Teste!",
     },
     {
       name: "Fábio Barros",
@@ -98,7 +98,7 @@ function App() {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold text-purple-700"
           >
-            ProLife
+            Teste
           </motion.div>
 
           {/* Desktop Menu */}
@@ -437,7 +437,7 @@ function App() {
             transition={{ delay: 0.2 }}
             className="text-lg text-gray-600 mb-8"
           >
-            curta e compartilhe prolife
+            curta e compartilhe Teste
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -513,7 +513,7 @@ function App() {
                   OU DIRETO PELO TELEFONE (WhatsApp)
                 </h3>
                 <div className="text-4xl font-bold text-green-600 mb-4">
-                  27 99911 2027
+                  99 99999 9999
                 </div>
                 <Button
                   onClick={handleWhatsApp}
@@ -548,7 +548,7 @@ function App() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">ProLife</h3>
+              <h3 className="text-2xl font-bold mb-4">Teste</h3>
               <p className="text-purple-200">
                 Studio de Pilates especializado em atendimento personalizado e
                 qualidade de vida.

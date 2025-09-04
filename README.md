@@ -1,6 +1,6 @@
-# Studio ProLife - Site Oficial
+# Studio Teste - Site Oficial
 
-Site oficial do Studio ProLife, um estúdio de Pilates especializado em atendimento personalizado e qualidade de vida.
+Site oficial do Studio Teste, um estúdio de Pilates especializado em atendimento personalizado e qualidade de vida.
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -35,7 +35,8 @@ Site oficial do Studio ProLife, um estúdio de Pilates especializado em atendime
 ## 🛠️ Instalação e Desenvolvimento
 
 ### Pré-requisitos
-- Node.js 18+ 
+
+- Node.js 18+
 - npm ou pnpm
 
 ### Comandos
@@ -104,6 +105,7 @@ vercel --prod
 ## ⚙️ Configurações do Vercel
 
 ### vercel.json (opcional)
+
 ```json
 {
   "framework": "vite",
@@ -115,6 +117,7 @@ vercel --prod
 ```
 
 ### Variáveis de Ambiente
+
 Não há variáveis de ambiente necessárias para este projeto.
 
 ## 📱 Responsividade
@@ -122,7 +125,7 @@ Não há variáveis de ambiente necessárias para este projeto.
 O site foi desenvolvido com abordagem mobile-first e é totalmente responsivo:
 
 - **Mobile**: < 768px
-- **Tablet**: 768px - 1024px  
+- **Tablet**: 768px - 1024px
 - **Desktop**: > 1024px
 
 ## 🎯 Performance
@@ -134,15 +137,14 @@ O site foi desenvolvido com abordagem mobile-first e é totalmente responsivo:
 
 ## 📞 Contato
 
-- **WhatsApp**: (27) 99911-2027
-- **Email**: contato@studioprolife.com.br
+- **WhatsApp**: (99) 99999-9999
+- **Email**: contato@testMail.com.br
 - **Localização**: Vitória, ES - 3 Unidades
 
 ## 📄 Licença
 
-Este projeto foi desenvolvido para o Studio ProLife. Todos os direitos reservados.
+Este projeto foi desenvolvido para o Studio Teste. Todos os direitos reservados.
 
 ---
 
-**Desenvolvido com ❤️ para o Studio ProLife**
-
+**Desenvolvido com ❤️ para o Studio Teste**

@@ -206,7 +206,7 @@ function App() {
           <motion.img
             src={tiezaProfileImage}
             alt="Tieza Moraes"
-            className="rounded-full w-128 h-128 mx-auto mb-4 object-cover border-4 border-white shadow-lg"
+            className="rounded-full w-32 h-32 md:w-128 md:h-128 mx-auto mb-4 object-cover border-4 border-white shadow-lg"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}

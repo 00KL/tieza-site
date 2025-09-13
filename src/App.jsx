@@ -10,6 +10,7 @@ import {
   Clock,
   CreditCard,
   Star,
+  CircleDollarSign,
 } from "lucide-react";
 import { motion } from "framer-motion";
 import "./App.css";
@@ -24,36 +25,41 @@ function App() {
 
   const services = [
     {
-      name: "Depilação de pernas",
-      price: "R$ XX,00",
-      description: "Depilação completa das pernas com técnica profissional",
+      name: "Canela",
+      price: "R$ 30,00",
+      description: "Depilação da canela com cera quente",
     },
     {
-      name: "Depilação de buço",
-      price: "R$ XX,00",
-      description: "Remoção delicada dos pelos do buço",
+      name: "Perna inteira",
+      price: "R$ 90,00",
+      description: "Depilação completa das pernas com cera quente",
     },
     {
-      name: "Depilação de axilas",
-      price: "R$ XX,00",
-      description: "Depilação cuidadosa da região das axilas",
+      name: "Coxa + virilha",
+      price: "R$ 60,00",
+      description: "Depilação da coxa e virilha com cera quente",
     },
     {
-      name: "Depilação de virilha",
-      price: "R$ XX,00",
-      description: "Depilação íntima com máximo conforto e higiene",
+      name: "Buço",
+      price: "R$ 15,00",
+      description: "Remoção delicada dos pelos do buço com cera quente",
     },
     {
-      name: "Design de sobrancelha",
-      price: "R$ XX,00",
-      description: "Modelagem perfeita das sobrancelhas para realçar seu olhar",
+      name: "Sobrancelha",
+      price: "R$ 30,00",
+      description: "Design e depilação de sobrancelhas",
+    },
+    {
+      name: "Virilha",
+      price: "R$ 45,00",
+      description: "Depilação íntima da virilha com cera quente",
     },
   ];
 
   const differentials = [
     {
       icon: <Star className="w-6 h-6" />,
-      title: "Mais de 10 anos de experiência",
+      title: "Mais de 20 anos de experiência",
       description: "Profissional experiente e qualificada",
     },
     {
@@ -80,7 +86,7 @@ function App() {
 
   const handleWhatsApp = () => {
     window.open(
-      "https://wa.me/5522999999999?text=Olá! Gostaria de agendar um horário para depilação!",
+      "https://wa.me/5522998861252?text=Olá! Gostaria de agendar um horário para depilação!",
       "_blank"
     );
   };
@@ -227,7 +233,7 @@ function App() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto"
           >
-            Com mais de 10 anos de experiência, oferece depilação de qualidade e
+            Com mais de 20 anos de experiência, oferece depilação de qualidade e
             cuidado especial para suas clientes em Bom Jesus do Norte.
             Atendimento personalizado e ambiente confortável para realçar a sua
             beleza.
@@ -279,16 +285,16 @@ function App() {
             >
               <p className="text-lg text-gray-700 mb-6">
                 Sou <strong>Tieza Moraes</strong>, depiladora profissional com
-                mais de 10 anos de experiência no cuidado e bem-estar feminino.
+                mais de 20 anos de experiência no cuidado e bem-estar feminino.
                 Minha paixão é proporcionar às minhas clientes não apenas um
                 serviço de qualidade, mas uma experiência completa de cuidado
                 pessoal.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                Atendo exclusivamente em domicílio em Bom Jesus do Norte,
-                oferecendo a comodidade de receber os cuidados estéticos no
-                conforto da sua casa. Trabalho com ambiente climatizado e todos
-                os cuidados de higiene e segurança necessários.
+                Trabalho somente com cera quente. O atendimento de depilação é
+                realizado em meu próprio estúdio, proporcionando um ambiente
+                climatizado e todos os cuidados de higiene e segurança
+                necessários.
               </p>
               <p className="text-lg text-gray-700 mb-6">
                 Meu atendimento é voltado especialmente para o público feminino,
@@ -432,7 +438,7 @@ function App() {
             transition={{ delay: 0.2 }}
             className="text-xl mb-8"
           >
-            Agende já seu horário pelo WhatsApp: (22) 99999-9999
+            Agende já seu horário pelo WhatsApp: (22) 99886-1252
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -487,7 +493,7 @@ function App() {
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">
                   WhatsApp
                 </h3>
-                <p className="text-gray-600">(22) 99999-9999</p>
+                <p className="text-gray-600">(22) 99886-1252</p>
                 <p className="text-sm text-gray-500 mt-2">
                   Horário flexível, somente com agendamento
                 </p>
@@ -518,7 +524,7 @@ function App() {
                 transition={{ delay: 0.2 }}
               >
                 <div className="bg-pink-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <CreditCard className="text-pink-600" size={24} />
+                  <CircleDollarSign className="text-pink-600" size={24} />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">
                   Pagamento
@@ -545,7 +551,7 @@ function App() {
               Tieza Moraes
             </h3>
             <p className="text-gray-300 mb-4">
-              Depiladora Profissional - Mais de 10 anos de experiência
+              Depiladora Profissional - Mais de 20 anos de experiência
             </p>
             <div className="flex justify-center items-center space-x-6 text-sm text-gray-400">
               <span className="flex items-center">
@@ -554,7 +560,7 @@ function App() {
               </span>
               <span className="flex items-center">
                 <Phone size={16} className="mr-1" />
-                (22) 99999-9999
+                (22) 99886-1252
               </span>
             </div>
             <div className="mt-6 pt-6 border-t border-gray-700">
